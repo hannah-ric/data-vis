@@ -10,7 +10,14 @@ export function useFileProcessor() {
     reader.onload = (event) => {
       try {
         const csv = event.target.result;
-        const result = parse(csv, { header: true });
+        const result = parse(csv, {
+          header: true,
+          dynamicTyping: true,
+          skipEmptyLines: true,
+        });
+        if (result.errors.length) {
+          throw new Error(result.errors[0].message);
+        }
         setData(result.data);
         setError(null);
       } catch (err) {
