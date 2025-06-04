@@ -1,8 +1,7 @@
-```
-npm install
-npm start
-```
-=======
+# Data Visualization App
+
+This project demonstrates uploading CSV data and visualizing it with React and D3.
+
 ## Getting Started
 
 1. **Install Dependencies**
