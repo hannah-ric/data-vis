@@ -8,6 +8,8 @@
     "lint": "eslint .",
     "dev": "node index.js",
     "build": "echo 'build not implemented'"
+
+
   "description": "Sample D3 visualization modules",
   "main": "index.js",
   "type": "module",
@@ -63,11 +65,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": true,
+
   "type": "commonjs",
   "devDependencies": {
     "eslint": "^9.28.0",
     "jest": "^29.7.0"
   },
+  "dependencies": {}
   "dependencies": {
     "jest": "^29.7.0"
   }
