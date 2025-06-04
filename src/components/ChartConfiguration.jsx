@@ -6,7 +6,7 @@ const chartTypes = [
   { value: 'scatter', label: 'Scatter' }
 ];
 
-export default function ChartConfiguration({ columns, config, onChange }) {
+export default function ChartConfiguration({ columns, config, onChange, onReset }) {
   if (!columns) return null;
 
   const handleSelect = (e) => {
@@ -43,6 +43,7 @@ export default function ChartConfiguration({ columns, config, onChange }) {
           ))}
         </select>
       </label>
+      <button type="button" onClick={onReset}>Reset</button>
     </div>
   );
 }
