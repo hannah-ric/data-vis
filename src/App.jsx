@@ -7,7 +7,7 @@ import ChartConfiguration from './components/ChartConfiguration';
 import Visualization from './components/Visualization';
 
 export default function App() {
-  const { data, handleFileUpload } = useFileProcessor();
+  const { data, handleFileUpload, error } = useFileProcessor();
   const summary = useDataAnalysis(data);
   const [chartConfig, setChartConfig] = useState({ type: 'bar', x: '', y: '' });
 
@@ -15,6 +15,7 @@ export default function App() {
     <div>
       <h1>Data Visualization App</h1>
       <FileUpload onFileLoaded={handleFileUpload} />
+      {error && <p style={{ color: 'red' }}>{error}</p>}
       <DataSummary summary={summary} />
       {summary && (
         <ChartConfiguration
