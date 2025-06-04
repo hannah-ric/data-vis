@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint .",
     "dev": "node index.js",
-    "build": "echo \"build not implemented\""
+    "build": "echo 'build not implemented'"
   },
   "keywords": [],
   "author": "",
