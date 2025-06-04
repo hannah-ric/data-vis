@@ -23,6 +23,13 @@
    ```
    This step generates optimized assets ready for deployment.
 
+4. **Run Tests**
+
+   ```bash
+   npm test
+   ```
+   Executes the unit test suite.
+
 ## Sample Datasets
 
 No sample datasets are included at the moment. If you add datasets, place them in a `data/` directory.
