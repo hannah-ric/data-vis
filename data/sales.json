@@ -1,0 +1,5 @@
+[
+  {"date": "2021-01-01", "product": "Widget", "quantity": 10, "price": 25.0},
+  {"date": "2021-01-02", "product": "Gadget", "quantity": 5, "price": 15.0},
+  {"date": "2021-01-03", "product": "Doohickey", "quantity": 7, "price": 7.5}
+]

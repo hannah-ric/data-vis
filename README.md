@@ -35,6 +35,11 @@ npm start
 
 ## Sample Datasets
 
+
+Example CSV and JSON datasets are included in the `data/` directory. These files
+provide simple population statistics and sales figures that can be used when
+testing visualizations or examples.
+
 Sample JSON datasets are available in the `data/` directory:
 
 - `bar-data.json` – values for a bar chart
