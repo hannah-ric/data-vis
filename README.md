@@ -1,5 +1,8 @@
-# data-vis
-
+```
+npm install
+npm start
+```
+=======
 ## Getting Started
 
 1. **Install Dependencies**
