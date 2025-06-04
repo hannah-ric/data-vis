@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "private": true,
   "type": "commonjs",
   "devDependencies": {
     "eslint": "^9.28.0",
