@@ -39,7 +39,13 @@ No sample datasets are included at the moment. If you add datasets, place them i
 
 ## Keyboard Shortcuts
 
-The project does not define custom keyboard shortcuts yet.
+Use the shortcut module in `src/shortcuts.js` to wire up global keyboard events.
+
+| Shortcut | Action              |
+| -------- | ------------------- |
+| `Ctrl+F` | Filter displayed data |
+| `Ctrl+R` | Resize the visualization |
+| `Ctrl+E` | Export the current view |
 
 ## License
 
