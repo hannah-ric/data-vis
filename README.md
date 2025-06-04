@@ -1,5 +1,8 @@
-# data-vis
-
+```
+npm install
+npm start
+```
+=======
 ## Getting Started
 
 1. **Install Dependencies**
@@ -22,6 +25,13 @@
    npm run build
    ```
    This step generates optimized assets ready for deployment.
+
+4. **Run Tests**
+
+   ```bash
+   npm test
+   ```
+   Executes the unit test suite.
 
 ## Sample Datasets
 
