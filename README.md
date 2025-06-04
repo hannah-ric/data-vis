@@ -1,5 +1,8 @@
-# data-vis
-
+```
+npm install
+npm start
+```
+=======
 ## Getting Started
 
 1. **Install Dependencies**
@@ -23,6 +26,13 @@
    ```
    This step generates optimized assets ready for deployment.
 
+4. **Run Tests**
+
+   ```bash
+   npm test
+   ```
+   Executes the unit test suite.
+
 ## Sample Datasets
 
 Sample JSON datasets are available in the `data/` directory:
@@ -39,7 +49,13 @@ Open the HTML file in a browser or serve the project with a static server to vie
 
 ## Keyboard Shortcuts
 
-The project does not define custom keyboard shortcuts yet.
+Use the shortcut module in `src/shortcuts.js` to wire up global keyboard events.
+
+| Shortcut | Action              |
+| -------- | ------------------- |
+| `Ctrl+F` | Filter displayed data |
+| `Ctrl+R` | Resize the visualization |
+| `Ctrl+E` | Export the current view |
 
 ## License
 
