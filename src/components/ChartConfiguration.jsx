@@ -43,6 +43,7 @@ export default function ChartConfiguration({ columns, config, onChange }) {
           ))}
         </select>
       </label>
+      <button type="button" onClick={() => onChange({ ...config, x: '', y: '' })}>Reset</button>
     </div>
   );
 }

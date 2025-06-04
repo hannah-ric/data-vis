@@ -1,12 +1,12 @@
 import * as d3 from 'd3';
 
-export function createBarChart(selector, data) {
-  const width = 500;
-  const height = 300;
+export function createBarChart(selector, data, { width, height } = {}) {
+  const container = d3.select(selector);
+  width = width || container.node().clientWidth || 500;
+  height = height || container.node().clientHeight || 300;
   const margin = { top: 20, right: 20, bottom: 30, left: 40 };
 
-  const svg = d3
-    .select(selector)
+  const svg = container
     .append('svg')
     .attr('width', width)
     .attr('height', height);
