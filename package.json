@@ -9,6 +9,7 @@
     "dev": "node index.js",
     "build": "echo 'build not implemented'"
 
+
   "description": "Sample D3 visualization modules",
   "main": "index.js",
   "type": "module",
