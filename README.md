@@ -25,7 +25,9 @@
 
 ## Sample Datasets
 
-No sample datasets are included at the moment. If you add datasets, place them in a `data/` directory.
+Example CSV and JSON datasets are included in the `data/` directory. These files
+provide simple population statistics and sales figures that can be used when
+testing visualizations or examples.
 
 ## Keyboard Shortcuts
 
