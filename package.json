@@ -1,0 +1,15 @@
+{
+  "name": "data-vis",
+  "version": "1.0.0",
+  "description": "Sample D3 visualization modules",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "echo \"No development server configured\"",
+    "build": "echo \"No build step\"",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "d3": "^7.8.5"
+  }
+}
