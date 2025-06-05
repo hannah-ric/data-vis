@@ -11,7 +11,7 @@ Choose the appropriate command for your system:
 # Option 2: PowerShell
 powershell -ExecutionPolicy Bypass -File setup-dev.ps1
 
-# Option 3: If Node.js IS installed
+# Option 3: If Node.js IS installed (recommended)
 npm run setup
 ```
 

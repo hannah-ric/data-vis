@@ -212,7 +212,7 @@ cat("R packages checked/installed\\n")
   // Step 5: Run setup verification
   log('\n5️⃣  Running setup verification...', 'yellow');
   try {
-    execSync('node test-setup.js', { stdio: 'inherit' });
+    execSync('node test-setup.cjs', { stdio: 'inherit' });
   } catch (error) {
     logWarning('Setup verification encountered issues');
   }
@@ -245,7 +245,7 @@ cat("R packages checked/installed\\n")
   
   if (response.toLowerCase() === 'y') {
     log('Starting application...', 'green');
-    require('./start-app.js');
+    require('./start-app.cjs');
   }
 }
 
