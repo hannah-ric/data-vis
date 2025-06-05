@@ -13,7 +13,10 @@
     "start:all": "node start-app.js",
     "backend:install": "cd backend && npm install",
     "install:all": "npm install && npm run backend:install",
-    "test:setup": "node test-setup.js"
+    "test:setup": "node test-setup.js",
+    "setup": "node setup-dev.js",
+    "setup:windows": "powershell -ExecutionPolicy Bypass -File setup-dev.ps1",
+    "setup:unix": "bash setup-dev.sh"
   },
   "dependencies": {
     "chart.js": "^4.3.0",

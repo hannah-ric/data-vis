@@ -2,6 +2,17 @@
 
 A modern data visualization application built with React, featuring advanced R integration for statistical analysis and visualizations through natural language prompts.
 
+## 🚀 Quick Start
+
+**New to the project?** See [QUICK_START.md](QUICK_START.md) for the fastest setup!
+
+```bash
+# One-command setup (choose based on your system)
+npm run setup              # Cross-platform (requires Node.js)
+./setup-dev.sh            # Mac/Linux
+./setup-dev.ps1           # Windows PowerShell
+```
+
 ## Features
 
 ### Core Features
